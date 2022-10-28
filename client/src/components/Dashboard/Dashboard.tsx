@@ -1,8 +1,6 @@
 import { useState } from "react";
-import { useForm } from "@mantine/form";
-import { Button, Modal, Group, TextInput, Textarea, Radio, NumberInput, SegmentedControl, Container, SimpleGrid, Grid, Card, Text } from "@mantine/core";
-import { ENDPOINT, Transaction } from "../../App";
-import { KeyedMutator } from "swr";
+import { Group, Grid, Card, Text } from "@mantine/core";
+import { Transaction } from "../../App";
 
 function Dashboard(props: { transactions: Transaction[]; }) {
     const [open, setOpen] = useState(false);

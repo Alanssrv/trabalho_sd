@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Modal, Group, Text, ActionIcon } from "@mantine/core";
+import { Button, Modal, Group, ActionIcon } from "@mantine/core";
 import { ENDPOINT, Transaction } from "../../App";
 import { KeyedMutator } from "swr";
 import { TrashIcon } from "@primer/octicons-react";

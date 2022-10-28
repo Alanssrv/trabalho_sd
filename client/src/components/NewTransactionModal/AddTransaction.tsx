@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useForm } from "@mantine/form";
-import { Button, Modal, Group, TextInput, Textarea, Radio, NumberInput, SegmentedControl } from "@mantine/core";
+import { Button, Modal, Group, TextInput, NumberInput, SegmentedControl } from "@mantine/core";
 import { ENDPOINT, Transaction } from "../../App";
 import { KeyedMutator } from "swr";
 

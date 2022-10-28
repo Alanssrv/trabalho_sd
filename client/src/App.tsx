@@ -1,6 +1,4 @@
-import { ActionIcon, Box, Divider, Table } from '@mantine/core'
-import { TrashIcon } from '@primer/octicons-react';
-import { IconEdit } from '@tabler/icons';
+import { Box, Divider } from '@mantine/core'
 import useSWR from 'swr';
 import './App.css'
 import Dashboard from './components/Dashboard/Dashboard';

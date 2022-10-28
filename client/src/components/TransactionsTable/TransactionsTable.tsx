@@ -1,6 +1,4 @@
-import { ActionIcon, Box, Table } from '@mantine/core'
-import { TrashIcon } from '@primer/octicons-react';
-import { IconEdit } from '@tabler/icons';
+import { Table } from '@mantine/core'
 import { KeyedMutator } from 'swr';
 import { Transaction } from '../../App';
 import DeleteTransaction from '../DeleteTransactionModal/DeleteTransaction';
