@@ -94,7 +94,7 @@ func UpdateTransactionByID(c *fiber.Ctx) error {
 		isDeposit := transaction.IsDeposit
 		category := transaction.Category
 
-		_, err = stmt.Exec(baseTransaction.ID, title, value, category, isDeposit)
+		_, err = stmt.Exec(title, value, category, isDeposit, baseTransaction.ID)
 		if err != nil {
 			panic(err.Error())
 		}
